@@ -1,7 +1,7 @@
-Contacts Page
+React components states and life cycles
 ====================
 
-Simple page enabling users to decrement and increment values by clicking button counters
+Simple page enabling users to decrement and increment values by clicking button counters. Main task - life cycles.
 
 Basic background
 ---------------------
