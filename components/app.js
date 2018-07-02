@@ -2,7 +2,6 @@ var Counter = React.createClass({
 	
 	getInitialState: function(){
 		return {
-		
 			counter: 0
 		};
 		
@@ -49,19 +48,18 @@ var Counter = React.createClass({
 		console.log('EventListenery can be canceled');
 	},
 	
-	
 	render: function(){
 		return (
 				React.createElement('div', {className: 'counter'},
 					React.createElement('h2', {}, 'Counter'),
 					React.createElement('span', {}, 'Counter: ' + this.state.counter),
-					React.createElement('div', {}, 
-						React.createElement('button', {
-							className: 'incr_button', 
-							onClick: this.increment},'Increment Counter'),
+						React.createElement('div', {}, 
+							React.createElement('button', {
+								className: 'incr_button', 
+								onClick: this.increment},'Increment Counter'),
 							
-						React.createElement('button', {
-							onClick: this.decrement}, 'Decrement Counter')
+							React.createElement('button', {
+								onClick: this.decrement}, 'Decrement Counter')
 					)
 				)
 		);
